@@ -1,7 +1,7 @@
 def main():
 
     user_name = input('Welcome to this game! What is your name? ')
-    print(f'\nWelcome {user_name}! We have a task ahead of us! The base is about to explode. You must collect the four hidden items and bring them back here. Each iteam will give you part of a code to enter in the final challenge. If you collect all of the items before you run out of lives, you will save the base! You have three lives. Are you ready?')
+    print(f'\nWelcome {user_name}! We have a task ahead of us! The base is about to explode. You must collect the four hidden items and bring them back here. Each item will give you part of a code to enter in the final challenge. If you collect all of the items before you run out of lives, you will save the base! You have three lives. Are you ready?')
 
     rooms = ['N','E','S','W']
     directions = ['North','East','South','West']

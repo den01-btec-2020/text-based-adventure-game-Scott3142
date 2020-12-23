@@ -15,8 +15,6 @@ The structure of this repository is as follows:
 |   +-- <other code files>
 +-- docs
 |   +-- <documentation>
-+-- tests
-|   +-- <testing documentation>
 ```
 
 ## Installation
