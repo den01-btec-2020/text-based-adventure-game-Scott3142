@@ -1,3 +1,15 @@
+# Log files
+import logging
+import logging.handlers
+import os
+
+handler = logging.handlers.WatchedFileHandler(os.environ.get("LOGFILE", "errorlogs.log"))
+formatter = logging.Formatter(logging.BASIC_FORMAT)
+handler.setFormatter(formatter)
+root = logging.getLogger()
+root.setLevel(os.environ.get("LOGLEVEL", "INFO"))
+root.addHandler(handler)
+
 def get_welcome():
   user_name = input('Welcome to this game! What is your name? ')
   print(f'\nWelcome {user_name}! We have a task ahead of us! The base is about to explode. You must collect the four hidden items and bring them back here. Each item will give you part of a code to enter in the final challenge. If you collect all of the items before you run out of lives, you will save the base! You have three lives. Are you ready?')
@@ -58,6 +70,7 @@ def main():
           my_items, life_counter = get_room_activity(direction,rooms,directions,items,puzzles,answers,codes,life_counter,my_items)
       except:
           print("\nSorry, I didn't quite catch that.")
+          logging.exception("Exception in main()")
 
       check_lives(life_counter)        
       check_items(my_items,codes,life_counter)
