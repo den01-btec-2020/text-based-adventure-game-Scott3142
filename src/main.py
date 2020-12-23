@@ -13,7 +13,7 @@ def main():
     my_items = []
 
     while True:
-        direction = input('\nYou are in the main room. \nWhich direction would you like to go? \nPlease enter N (North), S (South), E (East) or W (West): ')
+        direction = input('\nYou are in the main room. \nWhich direction would you like to go? \nPlease enter N (North), E (East), S (South) or W (West): ')
 
         try:
             idx = rooms.index(direction)
