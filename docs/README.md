@@ -9,7 +9,7 @@ The documentation is written using Google Workspace, so live links to each docum
 - [Issue log](https://github.com/den01-btec-2020/text-based-adventure-Scott3142/issues)
 - [Evaluation document](https://docs.google.com/document/d/1BoXYRDqdyRdLScKT-PPD2Yea0WAcmqmfjdTPzCkSVfQ/edit?usp=sharing)
 
-The psuedo-code for the game is below:
+The pseudocode for the game is below:
 
 ```bash
 get user name
