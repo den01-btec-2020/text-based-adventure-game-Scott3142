@@ -12,9 +12,8 @@ The structure of this repository is as follows:
 +-- README.md
 +-- src
 |   +-- main.py
-|   +-- <other code files>
 +-- docs
-|   +-- <documentation>
+|   +-- README.md
 ```
 
 ## Installation
