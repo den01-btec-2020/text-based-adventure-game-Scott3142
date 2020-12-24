@@ -39,3 +39,7 @@ The gameplay should, as closely as possible, satisfy the following requirements:
 ## Contact
 
 If you have questions about or issues with this repository, please head to the [Github issues](https://github.com/den01-dev/text-based-adventure/issues) board to discuss.
+
+## License
+
+This code is published under the [MIT license](https://opensource.org/licenses/MIT), allowing all of the associated freedoms permitted. This repository, the pull requests and issues are all used only for teaching purposes, so please feel free to use for your own means as much as is allowed under the MIT licence. 
