@@ -42,4 +42,4 @@ If you have questions about or issues with this repository, please head to the [
 
 ## License
 
-This code is published under the [MIT license](https://opensource.org/licenses/MIT), allowing all of the associated freedoms permitted. This repository, the pull requests and issues are all used only for teaching purposes, so please feel free to use for your own means as much as is allowed under the MIT licence. 
+This code is published under the [MIT license](https://opensource.org/licenses/MIT), allowing all of the associated freedoms permitted. This repository, the pull requests and issues are all used only for teaching purposes, so please feel free to use for your own means as much as is allowed under the MIT license. 
